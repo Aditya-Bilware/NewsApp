@@ -1,0 +1,40 @@
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #2a2a2a 25%,
+    #3a3a3a 37%,
+    #2a2a2a 63%
+  );
+  background-size: 400% 100%;
+  animation: shimmer 1.4s ease infinite;
+  border-radius: 6px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+/* Sizes */
+.skeleton-title {
+  height: 16px;
+}
+
+.skeleton-text {
+  height: 14px;
+}
+
+.skeleton-price {
+  height: 24px;
+  width: 120px;
+}
+
+.skeleton-button {
+  height: 36px;
+  width: 110px;
+  border-radius: 6px;
+}
