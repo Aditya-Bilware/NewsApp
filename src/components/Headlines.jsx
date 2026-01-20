@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { VscBellDot } from "react-icons/vsc";
 import "./Headlines.css";
-import { useEffect } from "react";
-import axios from "axios";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useNewsContext } from "../contexts/NewsContext";
 

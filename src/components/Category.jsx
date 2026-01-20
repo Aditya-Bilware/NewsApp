@@ -50,7 +50,7 @@ const Category = ({ className }) => {
               className="btn btn-primary mt-3"
               onClick={() => setSelCategory(category)}
             >
-              {category}
+              {category.charAt(0).toUpperCase() + category.slice(1)}
             </button>
           ))}
         </div>
